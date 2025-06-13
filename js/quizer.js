@@ -758,7 +758,7 @@ function setup(){
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2020_gr_icon;
+	package_names = ru_2020_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
