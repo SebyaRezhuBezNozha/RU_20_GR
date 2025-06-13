@@ -341,28 +341,89 @@ function load(){
 	setup();
 }
 
-// EN songs
+// RU songs
 
+const ru_2020_gr_icon = [
+	'rap'
+];
 
+const RU_2020_GR_PACK_1 = 1;
+
+let ru_2020_gr = [
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Galibri & Mavik',
+		song : "Чак Норрис (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Galibri & Mavik',
+		song : "Федерико Феллини (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Galibri & Mavik',
+		song : "Прощай, Алёшка (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'HammAli & Navai',
+		song : "А если это любовь? (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'HammAli & Navai',
+		song : "Птичка (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'HammAli & Navai',
+		song : "Засыпай, красавица (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Miyagi & Andy Panda',
+		song : "Kosandra (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Miyagi & Andy Panda',
+		song : "Патрон (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Miyagi & Andy Panda',
+		song : "Minor (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Tanir & Tyomcha',
+		song : "Потеряли пацана (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Tanir & Tyomcha',
+		song : "Da Da Da (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Tanir & Tyomcha',
+		song : "мама эта ночь (2022)"
+	}
+];
+
+let ru_2020_gr_1 =	ru_2020_f.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: en_2000_m,
-		lang: 'en',
-		year: '2000',
-		type: 'm',
+		arr: ru_2020_gr,
+		lang: 'ru',
+		year: '2020',
+		type: 'gr',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
-				},
-				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: ru_2020_gr_1,
+					name: 'RU 2020s Groups: Pop'
 				}
 			]
 	}
@@ -689,15 +750,15 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	lang = 'ru';
+	year = '2020';
+	artist_type = 'gr';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_2020_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
