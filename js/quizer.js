@@ -412,7 +412,7 @@ let ru_2020_gr = [
 	}
 ];
 
-let ru_2020_gr_1 =	ru_2020_f.filter(item => item.pack == 1);
+let ru_2020_gr_1 =	ru_2020_gr.filter(item => item.pack == 1);
 
 let music = [
 	{
