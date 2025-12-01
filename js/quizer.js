@@ -344,10 +344,12 @@ function load(){
 // RU songs
 
 const ru_2020_gr_icon = [
-	'rap'
+	'rap',
+	'rock'
 ];
 
 const RU_2020_GR_PACK_1 = 1;
+const RU_2020_GR_PACK_2 = 2;
 
 let ru_2020_gr = [
 	{
@@ -409,10 +411,251 @@ let ru_2020_gr = [
 		pack : RU_2020_GR_PACK_1,
 		group : 'Tanir & Tyomcha',
 		song : "мама эта ночь (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'LaScala',
+		song : "Выживу (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'LaScala',
+		song : "Реванш (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Louna',
+		song : "Хочу перемен (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Ирина Кайратовна',
+		song : "Айдахар (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Ирина Кайратовна',
+		song : "Чина (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Hatters',
+		song : "Город поёт (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Hatters',
+		song : "Я делаю шаг (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'TRITIA',
+		song : "Не любил (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Anacondaz',
+		song : "Сядь мне на лицо (ft кис-кис) (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'AY YOLA',
+		song : "Homay (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Wildways',
+		song : "Белым Мелом (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Wildways',
+		song : "Воздушный замок (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Wildways',
+		song : "Я тебя тоже (ft Mary Gu) (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'АИГЕЛ',
+		song : "Пыяла (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Аффинаж',
+		song : "Котик (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Блондинка КсЮ',
+		song : "Разорви на мне (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Бонд с кнопкой',
+		song : "Камушки (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Бонд с кнопкой',
+		song : "Кухни (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Где Фантом',
+		song : "Рельсы (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'ГУДТАЙМС',
+		song : "Огоньки (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Дайте Танк (!)',
+		song : "Люди (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Дорогой Дневник',
+		song : "Этажи (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Женя Трофимов & Комната культуры',
+		song : "Самолеты (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Женя Трофимов & Комната культуры',
+		song : "Поезда (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Женя Трофимов & Комната культуры',
+		song : "Звёзды (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Заточка',
+		song : "Пол - это лава (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Йорш',
+		song : "2007 (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'кис-кис',
+		song : "не надо (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'кис-кис',
+		song : "ты уже не ребенок (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Краснознамённая дивизия имени моей бабушки',
+		song : "Танцуй и кайся (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Крематорий',
+		song : "Увезу тебя я в тундру (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Купание обезьяны в тёплой воде',
+		song : "Хоккей (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Нервы',
+		song : "Лето, плавки, рок-н-ролл (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Нервы',
+		song : "Не верь, не бойся (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Операция Пластилин',
+		song : "Закат-закат (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Полматери',
+		song : "маша (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Полматери',
+		song : "полина (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Порнофильмы',
+		song : "Доброе сердце (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Пошлая Молли',
+		song : "Адская колыбельная (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Пошлая Молли',
+		song : "Ты разбила папину машину (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Сироткин',
+		song : "Карман весны (2024)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Смех',
+		song : "Мы обязательно встретимся (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Три дня дождя',
+		song : "Вина (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Три дня дождя',
+		song : "Слёзы на ветер (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Три дня дождя',
+		song : "За край (2023)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Тролль Гнёт Ель',
+		song : "В плену грибов (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Ундервуд',
+		song : "Дым (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'ЯАVЬ',
+		song : "Девочка (2021)"
 	}
 ];
 
 let ru_2020_gr_1 =	ru_2020_gr.filter(item => item.pack == 1);
+let ru_2020_gr_2 =	ru_2020_gr.filter(item => item.pack == 2);
 
 let music = [
 	{
@@ -423,7 +666,11 @@ let music = [
 		packs: [
 				{
 					arr: ru_2020_gr_1,
-					name: 'RU 2020s Groups: Pop'
+					name: 'RU 2020s Groups: Rap'
+				},
+				{
+					arr: ru_2020_gr_2,
+					name: 'RU 2020s Groups: Rock'
 				}
 			]
 	}
