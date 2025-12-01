@@ -424,11 +424,6 @@ let ru_2020_gr = [
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
-		group : 'Louna',
-		song : "Хочу перемен (2022)"
-	},
-	{
-		pack : RU_2020_GR_PACK_2,
 		group : 'Ирина Кайратовна',
 		song : "Айдахар (2024)"
 	},
