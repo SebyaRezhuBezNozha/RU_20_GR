@@ -470,7 +470,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Wildways',
-		song : "Я тебя тоже (ft Mary Gu) (2023)"
+		song : "Я тебя тоже (ft Mary Gu) (2023)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
@@ -575,7 +576,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Нервы',
-		song : "Не верь, не бойся (2021)"
+		song : "Не верь, не бойся (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
