@@ -423,12 +423,12 @@ let ru_2020_gr = [
 		song : "Реванш (2022)"
 	},
 	{
-		pack : RU_2020_GR_PACK_2,
+		pack : RU_2020_GR_PACK_1,
 		group : 'Ирина Кайратовна',
 		song : "Айдахар (2024)"
 	},
 	{
-		pack : RU_2020_GR_PACK_2,
+		pack : RU_2020_GR_PACK_1,
 		group : 'Ирина Кайратовна',
 		song : "Чина (2023)"
 	},
@@ -648,6 +648,21 @@ let ru_2020_gr = [
 		pack : RU_2020_GR_PACK_2,
 		group : 'Порнофильмы',
 		song : "Доброе сердце (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'кис-кис',
+		song : "не надо (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'кис-кис',
+		song : "ты уже не ребенок (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'CREAM SODA',
+		song : "Плачу на техно (ft Хлеб) (2020)"
 	}
 ];
 
