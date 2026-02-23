@@ -652,7 +652,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'кис-кис',
-		song : "не надо (2021)"
+		song : "не надо (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
