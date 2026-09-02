@@ -450,7 +450,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Anacondaz',
-		song : "Сядь мне на лицо (ft кис-кис) (2021)"
+		song : "Сядь мне на лицо (ft кис-кис) (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
@@ -486,7 +487,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Блондинка КсЮ',
-		song : "Разорви на мне (2022)"
+		song : "Разорви на мне (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
@@ -561,7 +563,8 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Крематорий',
-		song : "Увезу тебя я в тундру (2024)"
+		song : "Увезу тебя я в тундру (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
@@ -587,12 +590,14 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Полматери',
-		song : "маша (2022)"
+		song : "маша (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Полматери',
-		song : "полина (2024)"
+		song : "полина (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
@@ -632,17 +637,20 @@ let ru_2020_gr = [
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Ундервуд',
-		song : "Дым (2022)"
+		song : "Дым (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'ЯАVЬ',
-		song : "Девочка (2021)"
+		song : "Девочка (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
 		group : 'Тролль Гнёт Ель',
-		song : "В плену грибов (2021)"
+		song : "В плену грибов (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2020_GR_PACK_2,
