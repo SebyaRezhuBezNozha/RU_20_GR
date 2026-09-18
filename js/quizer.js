@@ -693,6 +693,16 @@ let ru_2020_gr = [
 		pack : RU_2020_GR_PACK_2,
 		group : 'Dругой Ветер',
 		song : "Время оставаться живым (2020)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Aleks Ataman & Finik',
+		song : "Диалоги тет-а-тет (2021)"
+	},
+	{
+		pack : RU_2020_GR_PACK_1,
+		group : 'Aleks Ataman & Finik',
+		song : "Девочка бандитка (2022)"
 	}
 ];
 
