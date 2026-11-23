@@ -703,6 +703,11 @@ let ru_2020_gr = [
 		pack : RU_2020_GR_PACK_1,
 		group : 'Aleks Ataman & Finik',
 		song : "Девочка бандитка (2022)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'IOWA',
+		song : "Fashion Girl (2025)"
 	}
 ];
 
