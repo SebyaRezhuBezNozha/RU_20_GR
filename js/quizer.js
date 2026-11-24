@@ -708,6 +708,11 @@ let ru_2020_gr = [
 		pack : RU_2020_GR_PACK_2,
 		group : 'IOWA',
 		song : "Fashion Girl (2025)"
+	},
+	{
+		pack : RU_2020_GR_PACK_2,
+		group : 'Флорида',
+		song : "Мой рай (2023)"
 	}
 ];
 
